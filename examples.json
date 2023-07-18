@@ -1,0 +1,266 @@
+{
+    "on_topic": [
+        {
+            "question": "What services do you offer in terms of lawn maintenance?",
+            "type": "service_inquiry"
+        },
+        {
+            "question": "What kind of plants would you recommend for a low maintenance garden?",
+            "type": "horticulture_advice"
+        },
+        {
+            "question": "Do you provide hardscaping services, such as building patios or decks?",
+            "type": "service_inquiry"
+        },
+        {
+            "question": "Do you have experience with installing water features like fountains or ponds?",
+            "type": "service_inquiry"
+        },
+        {
+            "question": "What is the best time of year to plant a new tree in my backyard?",
+            "type": "horticulture_advice"
+        },
+        {
+            "question": "Do you offer landscaping design services?",
+            "type": "service_inquiry"
+        },
+        {
+            "question": "How often should I water my lawn in the summer?",
+            "type": "horticulture_advice"
+        },
+        {
+            "question": "Do you provide tree pruning services?",
+            "type": "service_inquiry"
+        },
+        {
+            "question": "Can you suggest some shade-tolerant plants for my backyard?",
+            "type": "horticulture_advice"
+        },
+        {
+            "question": "Do you have organic options for lawn care?",
+            "type": "service_inquiry"
+        },
+        {
+            "question": "Do you offer landscaping design services?",
+            "type": "service_inquiry"
+        },
+        {
+            "question": "How often should I water my lawn in the summer?",
+            "type": "horticulture_advice"
+        },
+        {
+            "question": "Do you provide tree pruning services?",
+            "type": "service_inquiry"
+        },
+        {
+            "question": "Can you suggest some shade-tolerant plants for my backyard?",
+            "type": "horticulture_advice"
+        },
+        {
+            "question": "Do you have organic options for lawn care?",
+            "type": "service_inquiry"
+        },
+        {
+            "question": "What types of mulch do you recommend for a vegetable garden?",
+            "type": "horticulture_advice"
+        },
+        {
+            "question": "Do you offer services for creating a drought-tolerant landscape?",
+            "type": "service_inquiry"
+        },
+        {
+            "question": "Can you design a landscape to attract butterflies and other pollinators?",
+            "type": "design_request"
+        },
+        {
+            "question": "What is the process for a complete yard makeover, from design to execution?",
+            "type": "service_inquiry"
+        },
+        {
+            "question": "How do you handle garden pests organically?",
+            "type": "horticulture_advice"
+        },
+        {
+            "question": "Can you help install a sprinkler system for my garden?",
+            "type": "service_inquiry"
+        },
+        {
+            "question": "What's the ideal soil composition for a rose garden?",
+            "type": "horticulture_advice"
+        },
+        {
+            "question": "Do you offer landscape lighting solutions?",
+            "type": "service_inquiry"
+        },
+        {
+            "question": "What kind of maintenance is required for a water feature?",
+            "type": "maintenance_advice"
+        },
+        {
+            "question": "Can you advise on how to make my garden more wildlife-friendly?",
+            "type": "horticulture_advice"
+        },
+        {
+            "question": "Do you provide services for maintaining a fish pond?",
+            "type": "service_inquiry"
+        },
+        {
+            "question": "What is the best way to protect my plants from frost?",
+            "type": "horticulture_advice"
+        },
+        {
+            "question": "Can you help me design a rooftop garden?",
+            "type": "design_request"
+        },
+        {
+            "question": "Do you have solutions for soil erosion in sloping yards?",
+            "type": "service_inquiry"
+        },
+        {
+            "question": "What are some low-light plants you recommend for indoors?",
+            "type": "horticulture_advice"
+        },
+        {
+            "question": "Do you offer lawn aeration services?",
+            "type": "service_inquiry"
+        },
+        {
+            "question": "What are the best plants to grow for privacy in my backyard?",
+            "type": "horticulture_advice"
+        },
+        {
+            "question": "Can you help design a low-water xeriscape for my property?",
+            "type": "design_request"
+        },
+        {
+            "question": "Do you offer services to install an automatic irrigation system?",
+            "type": "service_inquiry"
+        },
+        {
+            "question": "What types of fertilizers do you recommend for vegetable gardens?",
+            "type": "horticulture_advice"
+        }
+    ],
+    "off_topic": [
+        {
+            "question": "Can you help me with my taxes?",
+            "type": "financial_advice"
+        },
+        {
+            "question": "What's the best recipe for apple pie?",
+            "type": "cooking_query"
+        },
+        {
+            "question": "Can you recommend a good book to read?",
+            "type": "literature_recommendation"
+        },
+        {
+            "question": "Do you sell car parts?",
+            "type": "product_inquiry_unrelated"
+        },
+        {
+            "question": "Can you teach me how to play the piano?",
+            "type": "music_education_request"
+        },
+        {
+            "question": "Can you fix a leaky faucet?",
+            "type": "home_repair_query"
+        },
+        {
+            "question": "Do you offer photography classes?",
+            "type": "education_inquiry_unrelated"
+        },
+        {
+            "question": "Where's the best place to buy fresh seafood?",
+            "type": "food_recommendation"
+        },
+        {
+            "question": "Can you help me with a computer problem?",
+            "type": "tech_support_query"
+        },
+        {
+            "question": "What's the current exchange rate for Euros to Dollars?",
+            "type": "financial_inquiry"
+        },
+        {
+            "question": "How do I bake a sourdough bread?",
+            "type": "cooking_query"
+        },
+        {
+            "question": "Can you recommend a reliable internet service provider?",
+            "type": "tech_recommendation"
+        },
+        {
+            "question": "What's the best way to learn a new language?",
+            "type": "education_advice"
+        },
+        {
+            "question": "Can you tell me more about the latest smartphone models?",
+            "type": "product_inquiry_unrelated"
+        },
+        {
+            "question": "How do I train my puppy?",
+            "type": "pet_care_query"
+        },
+        {
+            "question": "What's the best way to prepare for a marathon?",
+            "type": "fitness_advice"
+        },
+        {
+            "question": "Do you have any tips for writing a novel?",
+            "type": "writing_advice"
+        },
+        {
+            "question": "Can you advise on how to remove stains from my carpet?",
+            "type": "cleaning_advice"
+        },
+        {
+            "question": "What's the latest movie that's worth watching?",
+            "type": "entertainment_recommendation"
+        },
+        {
+            "question": "What's a good strategy for investing in stocks?",
+            "type": "financial_advice"
+        },
+        {
+            "question": "What's a good recipe for homemade pizza?",
+            "type": "cooking_query"
+        },
+        {
+            "question": "Can you suggest some good TV series to binge-watch?",
+            "type": "entertainment_recommendation"
+        },
+        {
+            "question": "How can I improve my chess skills?",
+            "type": "game_strategy_query"
+        },
+        {
+            "question": "What's a reliable antivirus software for my computer?",
+            "type": "tech_recommendation"
+        },
+        {
+            "question": "How can I get started with yoga?",
+            "type": "fitness_advice"
+        },
+        {
+            "question": "What's the best method to brew coffee at home?",
+            "type": "cooking_query"
+        },
+        {
+            "question": "Can you recommend a good mechanic in town?",
+            "type": "local_recommendation"
+        },
+        {
+            "question": "What are some effective exercises to lose weight?",
+            "type": "fitness_advice"
+        },
+        {
+            "question": "Do you know how to fix a blue screen error on a PC?",
+            "type": "tech_support_query"
+        },
+        {
+            "question": "What's a good site to learn coding for free?",
+            "type": "education_advice"
+        }
+    ]
+}

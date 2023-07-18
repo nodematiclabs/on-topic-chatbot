@@ -1,0 +1,841 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+height: 606
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse
+      id: collapse
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 936.6979370117188
+  viewPortHeight: 606
+  horizontalOffset: -21
+  verticalOffset: 12
+addInfo:
+  stages:
+    - control: prepend
+      class: p-button-secondary
+      icon: pi pi-plus
+    - name: Define
+      id: define
+      progress: 100
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#689F38"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Measure
+      id: measure
+      progress: 0
+      details: ""
+      delayed: true
+      atRisk: true
+      blocked: true
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Anayze
+      id: analyze
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Improve
+      id: improve
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Control
+      id: control
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - control: append
+      class: p-button-secondary
+      icon: pi pi-plus
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+connectors:
+  - id: Straight ConnectorJDZIB
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 271.65
+      y: 260
+    targetPoint:
+      x: 325.35
+      y: 209
+    sourceID: PythonFwXti
+    targetID: Digital AgentHAI85
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Straight ConnectorvT3qc
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 501.08
+      y: 260
+    targetPoint:
+      x: 438.93
+      y: 209
+    sourceID: LangchainlfaTB
+    targetID: Digital AgentHAI85
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+  - id: Dashed Straight ConnectorHI22E
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 412
+      y: 310
+    targetPoint:
+      x: 369
+      y: 310
+    sourceID: LangchainlfaTB
+    targetID: PythonFwXti
+    addInfo:
+      viewConnector: 0
+    zIndex: 8
+  - id: Straight ConnectorWXFhc
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 369
+      y: 506
+    targetPoint:
+      x: 318
+      y: 506
+    sourceID: MilvusFTh9N
+    targetID: Google Kubernetes EngineIm3c3
+    addInfo:
+      viewConnector: 0
+    zIndex: 9
+  - id: Dashed Orthogonal ConnectorVTy13
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 219
+      y: 360
+    targetPoint:
+      x: 341
+      y: 446
+    sourceID: PythonFwXti
+    targetID: Logical Groupc3iCc
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 11
+  - id: Dashed Straight ConnectorgUf1e
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 761
+      y: 361.95
+    targetPoint:
+      x: 712
+      y: 349.16
+    sourceID: PaLM AIsNwWS
+    targetID: LangchainlfaTB
+    addInfo:
+      viewConnector: 0
+    zIndex: 14
+  - id: Dashed Straight ConnectorpdRgZ
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 761
+      y: 273.24
+    targetPoint:
+      x: 712
+      y: 282.29
+    sourceID: OpenAIr77Jo
+    targetID: LangchainlfaTB
+    addInfo:
+      viewConnector: 0
+    zIndex: 15
+nodes:
+  - shape:
+      type: HTML
+      content: "<div class=\"c-html\" style=\"background-color: #433F3E;\"><div
+        class=\"c-container\"><div class=\"c-image-primary\"
+        style=\"background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677055369/sds_l\
+        ogos/Bot_Black_87_znnj7m.png);\"></div><div class=\"c-image-original\"
+        style=\"background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677055369/sds_l\
+        ogos/Bot_zw2rly.png);\"></div><div class=\"c-text\"><div
+        class=\"c-title\">On-Topic Chatbot</div><div
+        class=\"c-short-description\">Stays on topic, so that it's better suited
+        to particular use cases and business applications</div><div
+        class=\"c-bottom\"><div class=\"c-hr p-mb-1\"></div><div
+        class=\"c-title-bottom\">Digital Agent</div></div></div></div></div>"
+    id: Digital AgentHAI85
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Digital Agent
+        shortDescription: Stays on topic, so that it's better suited to particular use
+          cases and business applications
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Digital Agent
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Digital Agent
+      editableName: On-Topic Chatbot
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Digital Agent
+      category: 4
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677055369/sds_logos/Bot_zw2rly.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677055369/sds_logos/Bot__044448_z5legv.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677055369/sds_logos/Bot_Black_87_znnj7m.png
+      controlText: Digital Agent
+      color: "#433F3E"
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 378
+    offsetY: 159
+    zIndex: 1
+    inEdges:
+      - Straight ConnectorJDZIB
+      - Straight ConnectorvT3qc
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3B77A7;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A__Black_87_nciqru.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A_sgxbzs.png);"></div><div
+        class="c-text"><div class="c-title">Python</div><div
+        class="c-short-description">Python code powering the chatbot (sessions,
+        LLM API calls, vector handling,...)</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Python</div></div></div></div></div>'
+    id: PythonFwXti
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Python
+        shortDescription: Python code powering the chatbot (sessions, LLM API calls,
+          vector handling,...)
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Python
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Python
+      editableName: Python
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+      name: Python
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A_sgxbzs.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A__044448_g32jqq.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A__Black_87_nciqru.png
+      controlText: Python
+      color: "#3B77A7"
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 219
+    offsetY: 310
+    zIndex: 2
+    inEdges:
+      - Dashed Straight ConnectorHI22E
+    outEdges:
+      - Straight ConnectorJDZIB
+      - Dashed Orthogonal ConnectorVTy13
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3D6323;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1684397518/sds_logos/LangChain_Black_87_rspou8.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1684397518/sds_logos/LangChain_qa80ab.png);"></div><div
+        class="c-text"><div class="c-title">Langchain</div><div
+        class="c-short-description">Simplifying the development of applications
+        leveraging large language models</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Langchain</div></div></div></div></div>'
+    id: LangchainlfaTB
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Langchain
+        shortDescription: Simplifying the development of applications leveraging large
+          language models
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Langchain
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Langchain
+      editableName: Langchain
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Langchain
+      category: 1
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1684397518/sds_logos/LangChain_qa80ab.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1684397518/sds_logos/LangChain__044448_jxnt1p.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1684397518/sds_logos/LangChain_Black_87_rspou8.png
+      color: "#3D6323"
+      controlText: Langchain
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 562
+    offsetY: 310
+    zIndex: 3
+    inEdges:
+      - Dashed Straight ConnectorgUf1e
+      - Dashed Straight ConnectorpdRgZ
+    outEdges:
+      - Straight ConnectorvT3qc
+      - Dashed Straight ConnectorHI22E
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_l2vvbq.png);"></div><div
+        class="c-text"><div class="c-title">GKE Autopilot</div><div
+        class="c-short-description">Simple serverless approach for deploying the
+        chatbot</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Kubernetes EngineIm3c3
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Kubernetes Engine
+        shortDescription: Simple serverless approach for deploying the chatbot
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Kubernetes Engine
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Kubernetes Engine
+      editableName: GKE Autopilot
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Kubernetes Engine
+      category: 3
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_l2vvbq.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine__044448_l7kry7.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png
+      color: "#3871e0"
+      controlText: Google Kubernetes Engine
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 168
+    offsetY: 506
+    zIndex: 6
+    inEdges:
+      - Straight ConnectorWXFhc
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #167CAB;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/Milvus_Black_87_qau7vr.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/Milvus_aj1ff4.png);"></div><div
+        class="c-text"><div class="c-title">Milvus</div><div
+        class="c-short-description">Managing and searching large-scale vector
+        data (inc. similarity search and analytics)</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Milvus</div></div></div></div></div>'
+    id: MilvusFTh9N
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Milvus
+        shortDescription: Managing and searching large-scale vector data (inc.
+          similarity search and analytics)
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Milvus
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Milvus
+      editableName: Milvus
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Milvus
+      category: 1
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/Milvus_aj1ff4.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/Milvus__044448_uskbdg.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/Milvus_Black_87_qau7vr.png
+      color: "#167CAB"
+      controlText: Milvus
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 519
+    offsetY: 506
+    zIndex: 7
+    outEdges:
+      - Straight ConnectorWXFhc
+  - shape:
+      type: Basic
+      cornerRadius: 10
+    id: Logical Groupc3iCc
+    width: 668
+    height: 120
+    previewSize:
+      width: 320
+      height: 120
+    offsetX: 341
+    offsetY: 506
+    style:
+      fill: none
+      strokeColor: "#2A2A2A"
+      strokeDashArray: 4 4
+      strokeWidth: 2
+    annotations:
+      - id: cMr6V
+        content: Productionalization of the Chatbot ("Runs in my IDE" won't do!)
+        offset:
+          x: 0
+          y: 0
+        horizontalAlignment: Left
+        verticalAlignment: Bottom
+        style:
+          fill: white
+          fontSize: 14
+          bold: true
+          color: 2A2A2A
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: annotation
+      size: lg
+    zIndex: 0
+    inEdges:
+      - Dashed Orthogonal ConnectorVTy13
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #1D1F1F;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677055370/sds_logos/OpenAI_Black_87_g2vehy.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677055370/sds_logos/OpenAI_i9krbj.png);
+        border-radius: 10px"></div></div></div>'
+    id: OpenAIr77Jo
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: OpenAI
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: OpenAI
+      status: N/A
+      size: sm
+      nodeType: html
+      title: OpenAI
+      editableName: OpenAI
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: OpenAI
+      category: 1
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677055370/sds_logos/OpenAI_i9krbj.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677055370/sds_logos/OpenAI__044448_lczwp8.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677055370/sds_logos/OpenAI_Black_87_g2vehy.png
+      color: "#1D1F1F"
+      controlText: OpenAI
+      selectedDynamicsView: 0
+      collapsed: true
+    width: 100
+    height: 100
+    offsetX: 811
+    offsetY: 264
+    zIndex: 12
+    outEdges:
+      - Dashed Straight ConnectorpdRgZ
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #127E8A;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2_Black_87_l4nw7c.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2_h29dyo.png);
+        border-radius: 10px"></div></div></div>'
+    id: PaLM AIsNwWS
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: PaLM AI
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: PaLM AI
+      status: N/A
+      size: sm
+      nodeType: html
+      title: PaLM AI
+      editableName: PaLM AI
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: PaLM AI
+      category: 1
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2_h29dyo.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2__044448_vb2ppg.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2_Black_87_l4nw7c.png
+      color: "#127E8A"
+      controlText: PaLM AI
+      selectedDynamicsView: 0
+      collapsed: true
+    width: 100
+    height: 100
+    offsetX: 811
+    offsetY: 375
+    zIndex: 13
+    outEdges:
+      - Dashed Straight ConnectorgUf1e
+selectedItems:
+  width: 0
+  height: 0
